@@ -3,6 +3,7 @@ import './App.css';
 
 import Greet from "./components/Greet";
 import { Component } from 'react';
+import Hello from "./components/Hello"
 
 import Welcome from "./components/Welcome"
 
@@ -17,8 +18,9 @@ import Welcome from "./components/Welcome"
 function App() {
   return (
     <div className="App">
-     <Greet />
-     <Welcome />
+     {/* <Greet />
+     <Welcome /> */}
+     <Hello />
     </div>
   );
 }
