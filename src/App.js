@@ -18,9 +18,13 @@ import Welcome from "./components/Welcome"
 function App() {
   return (
     <div className="App">
-     {/* <Greet />
-     <Welcome /> */}
-     <Hello />
+     <Greet name = "John Wick" heroName = "Babayaga">
+      <p>This is the children class</p>
+     </Greet>
+     <Greet name="Sasuke Uchiha" heroName = "Shadow Hokage"/>
+     <Greet name = "Gol D Roger" heroName = "Pirate King"/>
+     {/* <Welcome />
+     <Hello /> */}
     </div>
   );
 }
